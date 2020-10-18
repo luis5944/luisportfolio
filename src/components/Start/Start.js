@@ -1,10 +1,25 @@
 import React from "react";
 import { Link } from "react-scroll";
 import "./Start.css";
-export const Start = () => {
+export const Start = ({ setDarkMode, darkMode }) => {
   return (
-    <div>
-      <main className="start" id="start">
+    <div id="start">
+      <div className="theme-switch-wrapper">
+        <label className="theme-switch" htmlFor="checkbox">
+          <input
+            type="checkbox"
+            id="checkbox"
+            onClick={() => {
+              setDarkMode(!darkMode);
+              localStorage.setItem("dark", !darkMode);
+            }}
+            defaultChecked={darkMode}
+          />
+          <div className="slider round"></div>
+        </label>
+        <em>{darkMode ? "Activa el modo claro" : "Activa el modo oscuro"}</em>
+      </div>
+      <main className="start">
         <h1 className="start-head">
           Hola, mi nombre es <span className="start-name">Luis F.N</span>
         </h1>

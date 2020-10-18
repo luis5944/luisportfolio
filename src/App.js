@@ -15,30 +15,16 @@ function App() {
   }, []);
 
   return (
-    <div className={darkMode ? "dark-mode" : "aaa"}>
+    <>
       <Navbar />
-      <div className="theme-switch-wrapper">
-        <label className="theme-switch" htmlFor="checkbox">
-          <input
-            type="checkbox"
-            id="checkbox"
-            onClick={() => {
-              setDarkMode(!darkMode);
-              localStorage.setItem("dark", !darkMode);
-            }}
-            defaultChecked={darkMode}
-          />
-          <div className="slider round"></div>
-        </label>
-        <em>{darkMode ? "Activa el modo claro" : "Activa el modo oscuro"}</em>
+      <div className={darkMode ? "dark-mode" : ""}>
+        <Start darkMode={darkMode} setDarkMode={setDarkMode} />
+        <About />
+        <Projects />
+        <Contact />
+        <Footer />
       </div>
-
-      <Start />
-      <About />
-      <Projects />
-      <Contact />
-      <Footer />
-    </div>
+    </>
   );
 }
 
