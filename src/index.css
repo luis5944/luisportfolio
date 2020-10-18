@@ -25,10 +25,10 @@ body {
   align-items: center;
   justify-content: flex-end;
   padding: 1rem;
-  position: sticky;
-  top:60px;
-  z-index:1;
+  top: 60px;
+  z-index: 1;
 }
+
 em {
   margin-left: 1rem;
   font-size: 1.3rem;
@@ -80,4 +80,10 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+  .theme-switch-wrapper {
+    z-index: 0;
+  }
 }
