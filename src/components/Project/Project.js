@@ -1,5 +1,6 @@
 import React from "react";
 import "./Project.css";
+import Roll from "react-reveal/Roll";
 
 export const Project = ({ project }) => {
   return (
@@ -36,10 +37,12 @@ export const Project = ({ project }) => {
           )}
         </div>
         <div className="project-img">
-          <img
-            src={require(`../../images/${project.img}`)}
-            alt={project.name}
-          />
+          <Roll>
+            <img
+              src={require(`../../images/${project.img}`)}
+              alt={project.name}
+            />
+          </Roll>
         </div>
       </div>
       <hr />

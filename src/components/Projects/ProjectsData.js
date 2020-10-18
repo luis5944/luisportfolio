@@ -47,7 +47,24 @@ export const ProjectsData = [
       "Firebase",
       "Firestore",
       "React-router",
+      "Redux",
     ],
     type: "React",
+  },
+
+  {
+    name: "Car Workshop",
+    info: "Aplicación con hibernate de un taller de coches.",
+    urlCode: "https://github.com/luis5944/carworkshop",
+    urlDemo:"",
+    img: "taller.png",
+    technologies: [
+      "CRUD Operations",
+      "Saving Collections",
+      "Cascade Delete",
+      "Restrictions",
+      "Query by Example",
+    ],
+    type: "Java",
   },
 ];
