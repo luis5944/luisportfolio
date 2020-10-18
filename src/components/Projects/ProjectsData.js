@@ -14,6 +14,7 @@ export const ProjectsData = [
       "API de noticias",
       "React-scroll",
     ],
+    type: "React",
   },
 
   {
@@ -30,6 +31,7 @@ export const ProjectsData = [
       "Firestore",
       "React-router",
     ],
+    type: "React",
   },
 
   {
@@ -46,5 +48,6 @@ export const ProjectsData = [
       "Firestore",
       "React-router",
     ],
+    type: "React",
   },
 ];

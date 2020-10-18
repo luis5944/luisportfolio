@@ -10,7 +10,7 @@ export const Project = ({ project }) => {
           <p>{project.info}</p>
           <ul className="project-ul">
             {project.technologies.map((tec) => {
-              return <li>{tec}</li>;
+              return <li key={tec}>{tec}</li>;
             })}
           </ul>
 

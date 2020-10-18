@@ -13,4 +13,25 @@
   margin-bottom: 5rem;
 }
 
+.custom-select {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
+select {
+  margin-bottom: 1em;
+  padding: 0.5em 2em;
+  border: 0;
+  border-bottom: 2px solid black;
+  font-weight: bold;
+  
+  border-radius: 0;
+}
+
+select:focus,
+select:active {
+  outline: 0;
+  border-bottom-color: red;
+}
