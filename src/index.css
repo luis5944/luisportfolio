@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+body {
+  line-height: 1.5;
+  font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.theme-switch-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 1rem;
+  position: sticky;
+  top:60px;
+  z-index:1;
+}
+em {
+  margin-left: 1rem;
+  font-size: 1.3rem;
+}
+.theme-switch {
+  display: inline-block;
+  height: 3.4rem;
+  position: relative;
+  width: 5rem;
+}
+
+.theme-switch input {
+  display: none;
+}
+
+.slider {
+  background-color: #ccc;
+  bottom: 0;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: 0.4s;
+}
+
+.slider:before {
+  background-color: #fff;
+  bottom: 0.4rem;
+  content: "";
+  height: 2.6rem;
+  left: 0.4rem;
+  position: absolute;
+  transition: 0.4s;
+  width: 2.6rem;
+}
+
+input:checked + .slider {
+  background-color: #66bb6a;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 3.4rem;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}

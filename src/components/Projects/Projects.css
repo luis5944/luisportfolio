@@ -1,0 +1,16 @@
+.projects {
+  padding-top: 6rem;
+}
+
+.projects-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin-bottom: 5rem;
+}
+
+

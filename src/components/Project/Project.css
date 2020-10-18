@@ -1,0 +1,65 @@
+.project {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10rem;
+}
+.project-body {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+hr {
+  border: 1px solid rgba(0, 212, 255, 1);
+  width: 25rem;
+  text-align: center;
+  align-self: center;
+  justify-self: center;
+  margin: 10rem auto;
+}
+.project-img {
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+  width: 50%;
+}
+.project-img img {
+  width: 50%;
+  height: auto;
+}
+.project-btn {
+  background-color: #f44336;
+  max-width: 12rem;
+  color: white;
+  padding: 1.4rem 1.5rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+.project-btn:hover,
+.project-btn:active {
+  background-color: red;
+}
+
+.project-ul {
+  padding-top: 1rem;
+  width: 70%;
+  margin: auto;
+}
+
+@media only screen and (max-width: 1000px) {
+  .project {
+    flex-direction: column;
+  }
+  .project-body {
+    padding: 1rem;
+    width: 100%;
+    order: 2;
+  }
+  .project-img img {
+    width: 100%;
+    height: auto;
+    order: -5;
+  }
+}
