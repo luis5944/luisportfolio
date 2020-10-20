@@ -81,7 +81,7 @@ export const ProjectsData = [
 
   {
     name: "Calendario React",
-    info: "Calendario web",
+    info: "Calendario web con login y registro. Incluye agenda.",
     urlCode: "https://github.com/luis5944/calendarreactnode",
     urlDemo: "https://calendar-react-1.herokuapp.com",
     img: "calendar.png",

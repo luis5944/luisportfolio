@@ -2,6 +2,7 @@
   display: flex;
   justify-content: flex-end;
   margin-bottom: 10rem;
+  
 }
 .project-body {
   display: flex;
@@ -23,7 +24,7 @@ hr {
   width: 50%;
 }
 .project-img img {
-  width: 50%;
+  width: 30%;
   height: auto;
 }
 .project-btn {
@@ -51,6 +52,7 @@ hr {
 @media only screen and (max-width: 1000px) {
   .project {
     flex-direction: column;
+    margin:2rem;
   }
   .project-body {
     padding: 1rem;
