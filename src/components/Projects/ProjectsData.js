@@ -59,10 +59,10 @@ export const ProjectsData = [
     urlDemo: "",
     img: "taller.png",
     technologies: [
-      "CRUD Operations",
-      "Saving Collections",
-      "Cascade Delete",
-      "Restrictions",
+      "Operaciones CRUD",
+      "Salvar Colecciones",
+      "Borrado en cascada",
+      "Restricciones",
       "Query by Example",
     ],
     type: "Java",
@@ -72,9 +72,20 @@ export const ProjectsData = [
     info:
       "Aplicación para bajar videos de youtube eligiendo calidad, audio/video.",
     urlCode: "",
-    urlDemo: "https://drive.google.com/file/d/1Gep4BVdgjDLliAp_kdxB2UIW-DArXBsF/view?usp=sharing",
+    urlDemo:
+      "https://drive.google.com/file/d/1Gep4BVdgjDLliAp_kdxB2UIW-DArXBsF/view?usp=sharing",
     img: "youtubed.png",
     technologies: ["YouTube API", "RSProgressBar"],
     type: "Java",
+  },
+
+  {
+    name: "Calendario React",
+    info: "Calendario web",
+    urlCode: "https://github.com/luis5944/calendarreactnode",
+    urlDemo: "https://calendar-react-1.herokuapp.com",
+    img: "calendar.png",
+    technologies: ["React", "Node", "Express", "React router", "Redux"],
+    type: "React",
   },
 ];
