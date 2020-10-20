@@ -56,7 +56,7 @@ export const ProjectsData = [
     name: "Car Workshop",
     info: "Aplicación con hibernate de un taller de coches.",
     urlCode: "https://github.com/luis5944/carworkshop",
-    urlDemo:"",
+    urlDemo: "",
     img: "taller.png",
     technologies: [
       "CRUD Operations",
@@ -65,6 +65,16 @@ export const ProjectsData = [
       "Restrictions",
       "Query by Example",
     ],
+    type: "Java",
+  },
+  {
+    name: "YouTube Downloader",
+    info:
+      "Aplicación para bajar videos de youtube eligiendo calidad, audio/video.",
+    urlCode: "",
+    urlDemo: "https://drive.google.com/file/d/1Gep4BVdgjDLliAp_kdxB2UIW-DArXBsF/view?usp=sharing",
+    img: "youtubed.png",
+    technologies: ["YouTube API", "RSProgressBar"],
     type: "Java",
   },
 ];

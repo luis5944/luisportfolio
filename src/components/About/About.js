@@ -1,8 +1,23 @@
 import React from "react";
 import "./About.css";
 import { Fade, Zoom } from "react-reveal";
+import { AiOutlineLink } from "react-icons/ai";
 
 export const About = () => {
+  const DAM = [
+    "Sistemas informáticos.",
+    "Bases de Datos.",
+    "Programación.",
+    "Lenguajes de marcas y sistemas de gestión de información.",
+    "Entornos de desarrollo.",
+    "Acceso a datos.",
+    "Desarrollo de interfaces.",
+    "Programación multimedia y dispositivos móviles.",
+    "Programación de servicios y procesos.",
+    "Sistemas de gestión empresarial.",
+    "Proyecto de desarrollo de aplicaciones multiplataforma.",
+  ];
+
   return (
     <div>
       <section className="about" id="about">
@@ -21,25 +36,41 @@ export const About = () => {
           </Zoom>
           <div className="about-container">
             <p className="about-text">
-              Estudié DAM (Desarrollo de Aplicaciones Mutliplataforma)
-              2019-2020. Las cosas que aprendí son:{" "}
+              Estudié{" "}
+              <a href="https://www.todofp.es/que-como-y-donde-estudiar/que-estudiar/familia/loe/informatica-comunicaciones/des-aplicaciones-multiplataforma.html">
+                DAM (Desarrollo de Aplicaciones Mutliplataforma)
+                <AiOutlineLink></AiOutlineLink>
+              </a>{" "}
+              en 2019-2020. Las cosas que aprendí son:{" "}
             </p>
             <div className="about-ul">
               <ul>
-                <li>Java</li>
-                <li>MySQL</li>
-                <li>Hibernate</li>
-                <li>HTML</li>
-                <li>CSS</li>
+                {DAM.map((asig) => (
+                  <li key={asig}>{asig}</li>
+                ))}
               </ul>
             </div>
-            <p className="about-text">
-              También aprendí por mi cuenta cosas como:
-            </p>
+            <p className="about-text">Cursos/titulación hecha por mi cuenta:</p>
             <div className="about-ul">
               <ul>
-                <li>JavaScript</li>
-                <li>React</li>
+                <li>
+                  <a
+                    href="https://www.freecodecamp.org/certification/fccdc4d8e30-e871-4685-abc2-f9028484026f/responsive-web-design"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Responsive Web Design <AiOutlineLink></AiOutlineLink>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://udemy-certificate.s3.amazonaws.com/image/UC-ae051db6-0ce6-452d-a075-213998bac3fd.jpg?v=1599146732000"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    React Hook MERN <AiOutlineLink></AiOutlineLink>
+                  </a>
+                </li>
                 <li>Spring Boot</li>
               </ul>
             </div>
