@@ -64,6 +64,16 @@ export const About = () => {
                 </li>
                 <li>
                   <a
+                    href="https://www.freecodecamp.org/certification/fccdc4d8e30-e871-4685-abc2-f9028484026f/javascript-algorithms-and-data-structures"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    JavaScript Algorithms and Data Structures{" "}
+                    <AiOutlineLink></AiOutlineLink>
+                  </a>
+                </li>
+                <li>
+                  <a
                     href="https://udemy-certificate.s3.amazonaws.com/image/UC-ae051db6-0ce6-452d-a075-213998bac3fd.jpg?v=1599146732000"
                     target="_blank"
                     rel="noopener noreferrer"
