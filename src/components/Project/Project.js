@@ -2,12 +2,7 @@ import React from "react";
 import "./Project.css";
 import Roll from "react-reveal/Roll";
 
-const fity = false;
 export const Project = ({ project }) => {
-  const string = fifty
-    ? "Tonight I'm going out WOOO"
-    : "Tonight I'm going to bed WOOO";
-    
   return (
     <>
       <div className="project">
