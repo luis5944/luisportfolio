@@ -103,7 +103,7 @@ export const ProjectsData = [
     name: "CRUD con Spring Boot y React",
     info: "CRUD con opciones para crear, leer, actualizar y borrar clientes",
     urlCode: "https://github.com/luis5944/spring-ventas",
-    urlDemo: "https://calendar-react-1.herokuapp.com",
+    urlDemo: "https://spring-clientes.netlify.app/clientes",
     img: "spring-boot-logo.png",
     technologies: ["React", "Bulma", "Spring Boot", "React router", "Context API"],
     type: "Java",
