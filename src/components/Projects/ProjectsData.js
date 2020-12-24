@@ -90,22 +90,18 @@ export const ProjectsData = [
   },
 
   {
-    name: "Calendario React",
-    info: "Calendario web con login y registro. Incluye agenda.",
-    urlCode: "https://github.com/luis5944/calendarreactnode",
-    urlDemo: "https://calendar-react-1.herokuapp.com",
-    img: "calendar.png",
-    technologies: ["React", "Node", "Express", "React router", "Redux"],
-    type: "React",
-  },
-
-  {
     name: "CRUD con Spring Boot y React",
     info: "CRUD con opciones para crear, leer, actualizar y borrar clientes",
     urlCode: "https://github.com/luis5944/spring-ventas",
     urlDemo: "https://spring-clientes.netlify.app/clientes",
     img: "spring-boot-logo.png",
-    technologies: ["React", "Bulma", "Spring Boot", "React router", "Context API"],
+    technologies: [
+      "React",
+      "Bulma",
+      "Spring Boot",
+      "React router",
+      "Context API",
+    ],
     type: "Java",
   },
 ];
